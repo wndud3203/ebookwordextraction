@@ -21,7 +21,7 @@ frequency_list = frequency.keys()
 r = ""
 for words in frequency_list:
     r = translator.translate(words,dest='ko')
-    print(f"{r.text}")
+    print(words , f"  {r.text}")
 
 
 
